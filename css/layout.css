@@ -136,19 +136,19 @@ h2,h3{
 
 ::selection {
   color: #fff;
-  background: #17bed2;
+  background: #BA6630;
   text-shadow: none;
 }
 
 ::-webkit-selection {
   color: #fff;
-  background: #17bed2;
+  background: #BA6630;
   text-shadow: none;
 }
 
 ::-moz-selection {
   color: #fff;
-  background: #17bed2;
+  background: #BA6630;
   text-shadow: none;
 }
 
@@ -947,6 +947,8 @@ fieldset[disabled] .btn-theme {
 .form-control:focus {
   color: #515769;
   box-shadow: none;
+  border-color: #BA6630;
+
 }
 
 .form-control:focus::-moz-placeholder {
@@ -1958,18 +1960,6 @@ img {
 textarea.form-control {
     width: 100%;
     height: 165px;
-}
-
-#submit:hover {
-  color: #fff;
-}
-
-#submit:before {
-  background-color: #0A85BB;
-}
-
-#submit.btn-effect:after {
-  background: #2E2E2E;
 }
 
 .contact-details h3 {
