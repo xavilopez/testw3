@@ -1684,10 +1684,9 @@ fieldset[disabled] .btn-theme {
 
 /*CLIENTES*/
 .client-tile{
-  background-color: red;
+  background-color: #fafafa;
   width: 200pt;
   height: 200pt;
-  border: 1px solid black;
   float:left;
 }
 .client-tile:after{
@@ -1695,7 +1694,9 @@ fieldset[disabled] .btn-theme {
   padding-bottom: 100%;
 }
 .client-row{
-  margin-left:15%;
+  margin-left:13%;
+  margin-right: 13%;
+  background-color: #fff;
 }
 .client-img{
   width: 100%;

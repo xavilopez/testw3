@@ -8,8 +8,8 @@ var Layout = function () {
  ========================================================================== */
 $(".btnClients").on('click', function(){
   var btnstring = '.' + $(this).text().toLowerCase().replace(/\s/g, '');
-  $(".client-tile").hide(200);
-  $(btnstring).show(200);
+  $(".client-tile").hide();
+  $(btnstring).show();
 });
 
 
