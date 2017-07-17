@@ -2088,6 +2088,7 @@ button#submit{
   height: 60px;
   background-size: 60px 60px;
   background-position:top;
+  background-repeat: no-repeat;
 }
 .icon-diseñoweb{
   background-image: url("../img/icons/diseño-web.png");
@@ -2112,9 +2113,13 @@ button#submit{
 }
 .icon-tecnico{
   background-image: url("../img/icons/settings.png");
+  background-size: 45px 45px;
+  background-position: center;
 }
 .icon-venta{
   background-image: url("../img/icons/venta.png");
+  background-size: 45px 45px;
+  background-position: center;
 }
 
 /*End Service Icons*/
