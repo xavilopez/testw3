@@ -56,7 +56,7 @@ $(".mobilenav li, .back-to-top").on('click', function() {
         $item.height($wHeight);
         $item.addClass('full-screen');
 
-        $('.carousel img').each(function() {
+        /*$('.carousel img').each(function() {
             var $src = $(this).attr('src');
             var $color = $(this).attr('data-color');
             $(this).parent().css({
@@ -64,7 +64,7 @@ $(".mobilenav li, .back-to-top").on('click', function() {
                 'background-color' : $color
             });
             //$(this).remove();
-        });
+        });*/
 
         $(window).on('resize', function (){
             $wHeight = $(window).height();

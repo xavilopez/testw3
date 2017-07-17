@@ -1684,11 +1684,9 @@ fieldset[disabled] .btn-theme {
 
 /*CLIENTES*/
 .client-tile{
-  background-color: #fafafa;
-  width: 200pt;
-  height: 200pt;
-  float:left;
-}
+  max-width: 300pt;
+  max-height: 300pt;
+ }
 .client-tile:after{
   display: block;
   padding-bottom: 100%;
@@ -2110,8 +2108,11 @@ button#submit{
 .icon-spot-audio{
   background-image: url("../img/icons/spot-audio.png");
 }
-.icon-spot-audio{
-  background-image: url("../img/icons/spot-audio.png");
+.icon-tecnico{
+  background-image: url("../img/icons/settings.png");
+}
+.icon-venta{
+  background-image: url("../img/icons/venta.png");
 }
 
 /*End Service Icons*/
