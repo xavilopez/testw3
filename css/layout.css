@@ -2005,6 +2005,12 @@ textarea.form-control {
 /*============================================================
 	Button adopted from codepen https://codepen.io/davidicus/pen/emgQKJ
 ==============================================================*/
+button#submit{
+  background:none;
+  border:none;
+
+}
+
 .btnxavi {
   color: rgba(186,102,48,1);
   cursor: pointer;
