@@ -2072,3 +2072,41 @@ textarea.form-control {
   -webkit-transition-timing-function: ease;
           transition-timing-function: ease;
 }
+
+
+
+
+/*Service Icons*/
+.service-icon{
+  display: block;
+  width: 60px;
+  height: 60px;
+  background-size: 60px 60px;
+  background-position:top;
+}
+.icon-diseñoweb{
+  background-image: url("../img/icons/diseño-web.png");
+}
+.icon-social-media{
+  background-image: url("../img/icons/social-media.png");
+}
+.icon-diseño-grafico{
+  background-image: url("../img/icons/diseño-grafico.png");
+}
+.icon-sistema{
+  background-image: url("../img/icons/sistema.png");
+}
+.icon-contenido-audiovisual{
+  background-image: url("../img/icons/contenido-audiovisual.png");
+}
+.icon-app-movil{
+  background-image: url("../img/icons/app-movil.png");
+}
+.icon-spot-audio{
+  background-image: url("../img/icons/spot-audio.png");
+}
+.icon-spot-audio{
+  background-image: url("../img/icons/spot-audio.png");
+}
+
+/*End Service Icons*/
