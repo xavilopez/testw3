@@ -985,7 +985,9 @@ fieldset[disabled] .btn-theme {
 .carousel-centered {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 0;
+  /*left: 40%;*/
+  width: 100%;
   -webkit-transform: translate3d(0, -50%, 0);
   -moz-transform: translate3d(0, -50%, 0);
   transform: translate3d(0, -50%, 0);
@@ -2116,3 +2118,7 @@ button#submit{
 }
 
 /*End Service Icons*/
+
+.title-header{
+  margin-left: 5%;
+}
