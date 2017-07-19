@@ -705,7 +705,7 @@ fieldset[disabled] .btn-theme {
   left: 0;
   width: 9px;
   height: 2px;
-  background: #17bed2;
+  background: #BA6630;
   opacity: 0;
   content: " ";
   transition-duration: 400ms;
@@ -832,6 +832,9 @@ fieldset[disabled] .btn-theme {
   }*/
   .orangemenu{
     background: #BA6630 !important;
+  }
+  .whitemenu{
+    background: #fff !important;
   }
 }
 
@@ -1625,7 +1628,7 @@ fieldset[disabled] .btn-theme {
   top: 21px;
 }
 .menui {
-  background: #fff;
+  background: #3E82F7;
   transition: 0.6s ease;
   transition-timing-function: cubic-bezier(0.75, 0, 0.29, 1.01);
   margin-top: 10px;
@@ -2126,4 +2129,73 @@ button#submit{
 
 .title-header{
   margin-left: 5%;
+}
+
+
+/*ANIMAED BACKGROUND*/
+#particles {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 10;
+  filter: url("#goo");
+}
+
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #fafafa;
+}
+
+.title {
+  z-index: 100;
+  position: absolute;
+  left: 50%;
+  top: 46%;
+  transform: translateX(-50%) translateY(-50%);
+  font-family: "Montserrat";
+  text-align: center;
+  width: 60%;
+}
+.title h1 {
+  position: relative;
+  color: #000000;
+  font-weight: 300;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.title h1 span {
+  font-weight: 600;
+  font-size: 60px;
+  padding: 0;
+  margin: 0;
+  line-height: 1;
+}
+.title h3 {
+  font-weight: 200;
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+  line-height: 2;
+  color: #5e7283;
+  letter-spacing: 2px;
+}
+
+.circle {
+  fill: #3E82F7;
+}
+
+svg {
+  display: block;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  transform: translateZ(0px);
 }

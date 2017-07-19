@@ -38,13 +38,12 @@ $(".mobilenav li, .back-to-top").on('click', function() {
 
     // handle on page scroll
     var handleHeaderOnScroll = function() {
-        if ($(window).scrollTop() > 1300) {
+         if ($(window).scrollTop() > 1300) {
             $('body').addClass('page-on-scroll');
             $('.menui').addClass('orangemenu');
         } else {
             $('body').removeClass('page-on-scroll');
             $('.menui').removeClass('orangemenu');
-
         }
     }
 
